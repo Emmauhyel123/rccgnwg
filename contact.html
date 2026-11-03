@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- EDIT: PAGE TITLE -->
+<title>Contact | RCCG New Wave of Glory Parish</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css"></head><body>
+<!-- NAVIGATION (same on every page: edit links here and in the other 4 files) -->
+<header class="site-header is-sticky" data-solid="1" id="header"><div class="container nav">
+  <!-- EDIT: CHURCH NAME -->
+  <a href="index.html" class="nav__brand">New Wave of Glory Parish<small>The Redeemed Christian Church of God</small></a>
+  <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  <nav class="nav__links" id="navLinks" aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="sermons.html">Sermons</a>
+      <a href="ministries.html">Ministries</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+  </nav></div></header>
+<main>
+<!-- EDIT: PAGE BANNER -->
+<section class="page-hero"><div class="container"><h1>Plan a visit</h1><p>Tell us you are coming, or ask us anything.</p></div></section>
+<section class="section"><div class="container contact">
+  <div class="fade-in"><h2 class="section-title">Service times</h2>
+    <!-- EDIT: TIMES & ADDRESS -->
+    <p><strong>Sunday Service:</strong> 8:00 AM<br><strong>Digging Deep (Tue):</strong> 5:00 PM<br><strong>Faith Clinic (Thu):</strong> 5:00 PM</p><br>
+    <address style="font-style:normal">Plot 00, Church Street,<br>Your Town, Your State</address><br>
+    <a class="link" href="https://maps.google.com" target="_blank" rel="noopener">Open in Google Maps</a></div>
+  <!-- EDIT: FORM: set action to your form service (Formspree, Netlify, etc.) -->
+  <form class="form fade-in" action="#" method="post">
+    <label>Your name<input type="text" name="name" required></label>
+    <label>Email<input type="email" name="email" required></label>
+    <label>Message<textarea name="message" required></textarea></label>
+    <button class="btn btn--primary" type="submit">Send message</button></form>
+</div></section>
+</main>
+<!-- FOOTER (same on every page) -->
+<footer class="footer"><div class="container"><div class="footer__grid">
+  <div><!-- EDIT: FOOTER BLURB -->
+    <h3>RCCG New Wave of Glory Parish</h3><p>A parish of The Redeemed Christian Church of God. Everyone is welcome.</p>
+    <!-- EDIT: SOCIAL LINKS -->
+    <div class="socials">
+      <a href="https://facebook.com/" aria-label="Facebook" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M13.5 22v-8.2h2.8l.5-3.3h-3.3V8.4c0-.9.4-1.7 1.8-1.7h1.6V3.8s-1.4-.3-2.7-.3c-2.7 0-4.3 1.6-4.3 4.5v2.5H7.2v3.3H10V22z"/></svg></a>
+      <a href="https://instagram.com/" aria-label="Instagram" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M7 2h10a5 5 0 015 5v10a5 5 0 01-5 5H7a5 5 0 01-5-5V7a5 5 0 015-5zm0 2a3 3 0 00-3 3v10a3 3 0 003 3h10a3 3 0 003-3V7a3 3 0 00-3-3zm5 3.5a4.5 4.5 0 110 9 4.5 4.5 0 010-9zm0 2a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM17.5 6a1 1 0 110 2 1 1 0 010-2z"/></svg></a>
+      <a href="https://youtube.com/" aria-label="YouTube" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M21.6 7.2a2.5 2.5 0 00-1.8-1.8C18.200 5 12 5 12 5s-6.200 0-7.800.4a2.500 2.500 0 00-1.800 1.800C2 8.800 2 12 2 12s0 3.200.4 4.800a2.500 2.500 0 001.800 1.800C5.800 19 12 19 12 19s6.200 0 7.800-.4a2.500 2.500 0 001.800-1.800c.4-1.600.4-4.800.4-4.800s0-3.200-.4-4.800zM10 15V9l5.200 3z"/></svg></a>
+    </div></div>
+  <div><!-- EDIT: CONTACT DETAILS -->
+    <h3>Contact</h3><address>Plot 00, Church Street, Your Town, Your State<br><a href="tel:+2340000000000">+234 000 000 0000</a><br><a href="mailto:info@yourchurch.org">info@yourchurch.org</a></address></div>
+  <div><!-- EDIT: NEWSLETTER (set form action to your email provider) -->
+    <h3>Stay in the loop</h3><p>Get service updates and event reminders by email.</p>
+    <form class="newsletter" action="#" method="post"><label for="nl" class="sr-only">Email address</label>
+      <input type="email" id="nl" name="email" placeholder="Your email address" required><button type="submit" class="btn btn--primary">Subscribe</button></form></div>
+</div><!-- EDIT: COPYRIGHT -->
+<p class="footer__bottom">&copy; 2026 RCCG New Wave of Glory Parish. All rights reserved.</p></div></footer>
+<script src="js/main.js"></script></body></html>
